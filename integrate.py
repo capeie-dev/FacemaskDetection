@@ -9,7 +9,7 @@ import datetime
 from firebase import firebase
 from google.cloud import storage
 import os
-firebase = firebase.FirebaseApplication('https://iotfundamentals.firebaseio.com',None)
+firebase = firebase.FirebaseApplication('',None)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=""
 
 client = storage.Client()
