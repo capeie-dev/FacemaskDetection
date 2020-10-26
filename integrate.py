@@ -10,7 +10,7 @@ from firebase import firebase
 from google.cloud import storage
 import os
 firebase = firebase.FirebaseApplication('https://iotfundamentals.firebaseio.com',None)
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/home/capeie/iotprojekt/iotfundamentals-firebase-adminsdk-fcval-410bea8dff.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=""
 
 client = storage.Client()
 bucket = client.get_bucket('iotfundamentals.appspot.com')
